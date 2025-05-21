@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Video Speed Controller",
+  "version": "1.1",
+  "description": "Control YouTube video speed up to 5x with custom input and sleek UI.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
