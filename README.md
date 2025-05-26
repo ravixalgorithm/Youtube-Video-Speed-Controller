@@ -34,13 +34,13 @@ A lightweight and user-friendly Chrome extension that lets you control YouTube p
 You can customize the default speed or UI behavior by editing the relevant values in the extension's JavaScript files. Look inside `content.js` or similar files (see comments in the code).
 
 ## 📁 Project Structure
-youtube-video-speed-controller/
-├── manifest.json
-├── content.js
-├── background.js (if used)
-├── popup.html
-├── popup.js
-├── icons/
+youtube-video-speed-controller/<br>
+├── manifest.json<br>
+├── content.js<br>
+├── background.js (if used)<br>
+├── popup.html<br>
+├── popup.js<br>
+├── icons/<br>
 └── styles/
 
 
